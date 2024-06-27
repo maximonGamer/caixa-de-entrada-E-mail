@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/jacadastradostyle.css">
+    <title>Página Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="Assets/Imagem/email.svg" alt="Imagem de Email" width="300px">
+        </div>
+        <div class="form-container">
+            <form id="login-form" action="login.php" method="POST">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <label for="email">Usuário (Email):</label>
+                    <input type="email" id="email" name="email" placeholder="Email cadastrado" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                </div>
+                <div class="link-container">
+                    <a href="./EsqueciSenha.html" class="forgot-password">Esqueci minha senha!</a>
+                </div>
+                <div class="button-container">
+                    <button id="entrar-btn" type="submit">Entrar</button>
+                </div>
+                <div class="link-container">
+                    <a href="./Index.html" class="back-link">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        tecnologiavision, 2024 - Universidade Brazcubas
+    </footer>
+    <script src="./Assets/JS/Index.js"></script>
+</body>
+</html>
